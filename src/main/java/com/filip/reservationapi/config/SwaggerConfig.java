@@ -30,7 +30,6 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         Contact contact = new Contact("Filip VE NAME", "URL", "email");
-        //                 new Contact("Filip VE", "www.vandeneyndefilip.nu", "info@example.com"),
         return new ApiInfoBuilder()
                 .title("Filip's REST API")
                 .description("Example of an API for my blogpost")
